@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MJ A. Aquino — Criminology Student personal portfolio">
+<title>MJ A. Aquino | Criminology Student</title>
+<style>
+:root{--bg:#0d0907;--panel:#17100c;--panel2:#21150f;--gold:#c79a5b;--cream:#f3e5cf;--muted:#c7b49d;--line:#4d3422;--accent:#e2b978}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at top,#2b1b12 0,#0d0907 45%,#070504 100%);color:var(--cream);font-family:Georgia,"Times New Roman",serif;line-height:1.65}
+a{color:inherit;text-decoration:none}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(8,5,4,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;justify-content:center;gap:8px;padding:12px 10px;flex-wrap:wrap}
+nav a{padding:7px 12px;color:var(--muted);font-size:.9rem;border-radius:5px}
+nav a:hover{background:#2b1b12;color:var(--accent)}
+main{max-width:1120px;margin:auto;padding:78px 20px 40px}
+.hero{min-height:82vh;display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
+.kicker{letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-size:.78rem}
+h1{font-size:clamp(3rem,8vw,6.6rem);line-height:.92;margin:14px 0;color:var(--cream);text-transform:uppercase}
+.hero h2{font-size:1.2rem;font-weight:normal;color:var(--muted);max-width:650px}
+.quote{border-left:3px solid var(--gold);padding:12px 0 12px 20px;margin:30px 0;color:#e8d7bd;font-style:italic}
+.btn{display:inline-block;padding:11px 17px;border:1px solid var(--gold);margin-right:8px;margin-top:10px;text-transform:uppercase;letter-spacing:.1em;font-size:.75rem}
+.btn:hover{background:var(--gold);color:#160d08}
+.profile-wrap{position:relative}
+.profile-wrap:before{content:"";position:absolute;inset:-12px;border:1px solid #735032;transform:rotate(2deg);z-index:0}
+.profile{position:relative;z-index:1;width:100%;max-width:470px;display:block;margin:auto;border:7px solid #22140d;box-shadow:0 20px 60px #000}
+section{padding:90px 0 25px}
+.section-title{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);margin-bottom:28px}
+.section-title h2{font-size:2.3rem;margin:0 0 10px;text-transform:uppercase}
+.num{color:var(--gold);font-size:.8rem;letter-spacing:.2em}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:linear-gradient(145deg,rgba(39,24,16,.92),rgba(18,11,8,.96));border:1px solid var(--line);padding:26px}
+.card h3{color:var(--accent);margin-top:0;text-transform:uppercase;letter-spacing:.08em}
+.card p{color:var(--muted)}
+.timeline{display:grid;gap:12px}
+.goal{display:grid;grid-template-columns:80px 1fr;gap:20px;align-items:start;border-bottom:1px solid var(--line);padding:20px 0}
+.goal .number{font-size:2.2rem;color:var(--gold)}
+.goal h3{margin:0 0 5px}
+.goal p{margin:0;color:var(--muted)}
+.motto{font-size:clamp(1.6rem,4vw,3rem);line-height:1.25;text-align:center;padding:45px 15px;border:1px solid var(--line);background:linear-gradient(135deg,#1f130d,#0f0907);font-style:italic}
+.list{padding-left:20px;color:var(--muted)}
+.list li{margin:10px 0}
+footer{text-align:center;border-top:1px solid var(--line);padding:45px 20px;margin-top:80px;color:var(--muted)}
+.badge{display:inline-block;border:1px solid var(--line);padding:6px 10px;color:var(--gold);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase}
+@media(max-width:800px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:40px}.hero .profile-wrap{order:-1}.grid{grid-template-columns:1fr}nav{justify-content:flex-start;overflow:auto;white-space:nowrap}.section-title{display:block}}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home">Home</a><a href="#about">About Me</a><a href="#journey">Journey</a>
+<a href="#goals">Career Goals</a><a href="#motto">Motto</a><a href="#vision">Vision</a><a href="#mission">Mission</a><a href="#contact">Contact</a>
+</nav>
+<main>
+<section id="home" class="hero">
+<div>
+<div class="kicker">Future Law Enforcement Officer</div>
+<h1>MJ A.<br>Aquino</h1>
+<div class="badge">Criminology Student</div>
+<p class="hero h2">Masipag • Determinado • Hindi sumusuko</p>
+<p class="quote">“My journey is not always easy, but every challenge makes me stronger.”</p>
+<a class="btn" href="#about">Explore My Journey</a>
+<a class="btn" href="#goals">Career Goals</a>
+</div>
+<div class="profile-wrap"><img class="profile" src="profile.png" alt="Profile portrait of MJ A. Aquino"></div>
+</section>
+
+<section id="about">
+<div class="section-title"><h2>Who I Am</h2><span class="num">01</span></div>
+<div class="grid">
+<article class="card"><h3>About Me</h3>
+<p>I am MJ A. Aquino, a Criminology student with a dream of becoming a dedicated and courageous police officer. I chose Criminology because I want to learn more about laws, justice, and the responsibilities involved in protecting and serving the community.</p>
+<p>My journey is guided by discipline, hard work, kindness, and perseverance. I believe that becoming a good police officer is not only about wearing a uniform, but also about having integrity, compassion, and genuine concern for others.</p></article>
+<article class="card"><h3>My Interest</h3>
+<p>A criminology student with a growing interest in crime, justice, and community safety.</p>
+<p>This website presents my academic journey, interests, experiences, and future goals. I believe criminology is not only about studying crime—it is also about understanding people and society.</p></article>
+</div>
+</section>
+
+<section id="journey">
+<div class="section-title"><h2>My Journey as a Criminology Student</h2><span class="num">02</span></div>
+<article class="card">
+<p>My journey as a Criminology student is filled with learning, hard work, and perseverance. I chose this field because I want to understand the law, justice, and public safety, while pursuing my childhood dream of becoming a police officer.</p>
+<p>While studying, I also work and help on the farm by taking care of plants and animals. These experiences have taught me discipline, responsibility, and patience.</p>
+<p>My family is my greatest motivation. Despite the challenges, I will continue working hard and learning because every experience brings me closer to my dream of becoming a dedicated and courageous police officer.</p>
+</article>
+</section>
+
+<section id="goals">
+<div class="section-title"><h2>Career Goals</h2><span class="num">03</span></div>
+<div class="timeline">
+<div class="goal"><div class="number">01</div><div><h3>Finish My Studies</h3><p>Successfully complete my Criminology education and develop the skills needed for my future career.</p></div></div>
+<div class="goal"><div class="number">02</div><div><h3>Join the PNP</h3><p>Turn my childhood dream into reality by becoming a member of the Philippine National Police.</p></div></div>
+<div class="goal"><div class="number">03</div><div><h3>Serve My Community</h3><p>Become a courageous and trustworthy police officer who serves the people of Balungao with integrity.</p></div></div>
+</div>
+</section>
+
+<section id="motto">
+<div class="section-title"><h2>Motto in Life</h2><span class="num">04</span></div>
+<div class="motto">“Like a free bird, no matter how difficult the journey may be, I will continue to fly toward my dreams.”</div>
+<p style="text-align:center;color:var(--muted);max-width:800px;margin:25px auto">This motto represents my determination to keep pursuing my goals despite challenges and difficulties. Just as a bird continues to fly despite the distance ahead, I will continue moving forward until I reach my dreams.</p>
+</section>
+
+<section id="vision">
+<div class="section-title"><h2>Vision</h2><span class="num">05</span></div>
+<article class="card">
+<p style="font-size:1.25rem;color:var(--cream)">To become a brave, disciplined, trustworthy, and compassionate police officer who serves and protects the community with integrity, fairness, and dedication.</p>
+<p>Ten years from now, I see myself as a PNP personnel serving in my community in Balungao, using the knowledge and values I have gained to help maintain peace, safety, and order.</p>
+</article>
+</section>
+
+<section id="mission">
+<div class="section-title"><h2>Mission</h2><span class="num">06</span></div>
+<article class="card">
+<p>I am committed to:</p>
+<ul class="list">
+<li>Continuously developing my knowledge of law, criminology, and public safety.</li>
+<li>Practice discipline, integrity, kindness, and responsibility in my studies and daily life.</li>
+<li>Serve people fairly and respectfully while proving that not all police officers are bad, and that law enforcement can be built on honesty, compassion, and genuine service.</li>
+</ul>
+</article>
+</section>
+
+<section id="contact">
+<div class="section-title"><h2>Contact Me</h2><span class="num">07</span></div>
+<div class="grid">
+<article class="card">
+<h3>Email</h3>
+<p>✉️ mja055943@gmail.com</p>
+<a class="btn" href="mailto:mja055943@gmail.com?subject=Hello%20MJ%20Aquino">Email Me</a>
+</article>
+<article class="card">
+<h3>Facebook</h3>
+<p>Connect with me on Facebook.</p>
+<a class="btn" href="https://www.facebook.com/share/1FAvsPfoYF/" target="_blank" rel="noopener noreferrer">Visit Facebook</a>
+</article>
+</div>
+</section>
+
+<footer>
+<div class="kicker">Thank You</div>
+<p>Thank you for visiting my personal website.</p>
+<p>CONNECT • LEARN • SERVE</p>
+</footer>
+</main>
+</body>
+</html>
